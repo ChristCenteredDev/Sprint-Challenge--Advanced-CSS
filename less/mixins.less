@@ -4,3 +4,13 @@
   justify-content: @jc;
   align-items: @ai;
 }
+
+.btn-mixin(@padding: 10px 20px, @bg-color: black, @width: 33%) {
+  padding: @padding;
+  background-color: @bg-color;
+  color: white;
+  font-size: 2rem;
+  border-radius: 5px;
+  width: @width;
+  cursor: pointer;
+}
